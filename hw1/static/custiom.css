@@ -1,0 +1,102 @@
+body{
+    padding: 2vw;
+}
+
+.header{
+    width:400px ;
+    margin:50px auto;
+    text-align:center;
+}
+
+#footer {
+
+        height: 40px;
+
+        line-height: 40px;
+
+        position: fixed;
+
+        bottom: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        background: #333;
+
+        color: #fff;
+
+        font-family: Arial;
+
+        font-size: 12px;
+
+        letter-spacing: 1px;
+
+    }
+
+    .content {
+
+        height: 1800px;
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+    #menu {
+        position: relative;
+        background-color:#ffffff;
+        width: 100%;
+        height: 60px;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-block;
+        padding-left: 140px;
+    }
+
+    ul li {
+        line-height: 60px;
+        text-align: center;
+        position: relative;
+        float: left;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 0 20px;
+        white-space: nowrap;
+        font-family:"仿宋";
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: rgb(255, 255, 255);
+        background-color: #ccc;
+    }
+
+    ul li ul li {
+        float: none;
+        margin-top: 2px;
+    }
+
+    ul li ul li a:hover {
+        color: rgb(255, 255, 255);
+        background-color: #ccc;
+    }
+
+    ul li ul {
+        position: absolute;
+        left: 0;
+        top: 60px;
+        display: none;
+        padding-left: 0;
+    }
+   
+    ul li:hover ul {
+        display: block;
+    }
+

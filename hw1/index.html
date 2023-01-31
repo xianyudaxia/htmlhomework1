@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>html_homeworkfirst</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/custiom.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.cn/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.cn/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.cn/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+</head>
+  <body><!--class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"-->
+    <div id="menu">
+      <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">成果展示</a></li>
+          <li role="presentation" class="disabled"><a href="#">成员介绍</a></li>
+          <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                具体分析 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a href="#">访谈</a></li>
+                  <li><a href="#">IAT测试</a></li>
+                  <li><a href="#">调查问卷</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">其他</a></li>
+              </ul>
+            </li>
+      </ul>
+
+    <div class="jumbotron">
+        <h1 class="animate__animated animate__bounce">Happy New Year!</h1>
+        <p>这里是正文部分</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+
+    <p>这里也是正文部分</p>
+    <div class="header">
+      <img src="pictures.png" width="300" height="300">
+      <p>图1：关于XX的条形统计图</p>
+    </div>
+    
+    <div class="panel panel-success">
+      <div class="panel-body">
+          公式
+      </div>
+      <div class="panel-footer">
+        <div class="formula">
+          <label>暴雨强度公式：</label>`i=A/(t+b)^n`<br>
+          <label>牛顿莱布尼兹公式：</label>`\int_{a}^{b} f(x) d x=F(b)-F(a)=F(x)|_{a} ^{b}`<br>
+          <label for="">勾股定理：</label> `a^2+b^2=c^2`<br><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-body">
+        表格
+      </div>
+      <div class="panel-footer">
+        <table border="1" class="dataframe">
+          <thead>
+            <tr style="text-align: right;">
+              <th>城市</th>
+              <th>房源标题</th>
+              <th>链家编号</th>
+              <th>总价</th>
+              <th>均价</th>
+              <th>房型</th>
+              <th>楼层</th>
+              <th>朝向</th>
+              <th>装修</th>
+              <th>面积</th>
+              <th>建筑类型</th>
+              <th>小区名称</th>
+              <th>所在区域</th>
+              <th>近七天带看次数</th>
+              <th>三十天带看次数</th>
+              <th>当前时间</th>
+              <th>页面网址</th>
+              <th>纬度</th>
+              <th>经度</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>珠海高新区</td>
+              <td>蔚蓝堡洋房单边一楼带地下室，湖景单位，靓房笋价</td>
+              <td>105111903489</td>
+              <td>468</td>
+              <td>26653元/平米</td>
+              <td>4室1厅</td>
+              <td>低楼层/共6层</td>
+              <td>南 北</td>
+              <td>错层/精装</td>
+              <td>175.59平米</td>
+              <td>板楼</td>
+              <td>华发蔚蓝堡</td>
+              <td>高新区 唐家湾镇</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2022-11-17 10:44:41.677</td>
+              <td>https://zh.lianjia.com/ershoufang/105111903489.html</td>
+              <td>22.379497</td>
+              <td>113.617317</td>
+            </tr>
+            <tr>
+              <td>珠海高新区</td>
+              <td>海景看淇澳岛  实用大四房，南北对流  一梯两户</td>
+              <td>105111949238</td>
+              <td>380</td>
+              <td>24858元/平米</td>
+              <td>4室2厅</td>
+              <td>中楼层/共18层</td>
+              <td>南 北</td>
+              <td>平层/精装</td>
+              <td>152.87平米</td>
+              <td>板楼</td>
+              <td>华发蔚蓝堡</td>
+              <td>高新区 唐家湾镇</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2022-11-17 10:44:59.982</td>
+              <td>https://zh.lianjia.com/ershoufang/105111949238.html</td>
+              <td>22.379497</td>
+              <td>113.617317</td>
+            </tr>
+            <tr>
+              <td>珠海高新区</td>
+              <td>头排高尔夫景观，在自家阳台休闲赏景令人神清气爽</td>
+              <td>105110985537</td>
+              <td>335</td>
+              <td>32844元/平米</td>
+              <td>3室2厅</td>
+              <td>中楼层/共28层</td>
+              <td>南</td>
+              <td>平层/精装</td>
+              <td>102平米</td>
+              <td>板塔结合</td>
+              <td>翠湖香山玉兰苑</td>
+              <td>高新区 唐家湾镇</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2022-11-17 10:45:18.178</td>
+              <td>https://zh.lianjia.com/ershoufang/105110985537.html</td>
+              <td>22.367187</td>
+              <td>113.560107</td>
+            </tr>
+            <tr>
+              <td>珠海高新区</td>
+              <td>业主急卖 翠湖香山玉兰苑 近北理工 朝南三房 精装修</td>
+              <td>105109880157</td>
+              <td>255</td>
+              <td>25148元/平米</td>
+              <td>3室2厅</td>
+              <td>中楼层/共32层</td>
+              <td>南</td>
+              <td>平层/精装</td>
+              <td>101.4平米</td>
+              <td>板塔结合</td>
+              <td>翠湖香山玉兰苑</td>
+              <td>高新区 唐家湾镇</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2022-11-17 10:45:36.686</td>
+              <td>https://zh.lianjia.com/ershoufang/105109880157.html</td>
+              <td>22.367187</td>
+              <td>113.560107</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+   
+    
+    
+
+    <div id="footer">
+        <span class="style4">网页信息解释权归@咸鱼大仙-李薇薇所有</span> <br />
+    </div>
+     
+  </body>
+</html>
